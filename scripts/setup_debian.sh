@@ -23,7 +23,8 @@ apt-get install -y \
   wget \
   curl \
   fontconfig \
-  libssl-dev
+  libssl-dev \
+  git
   
 # Install Oh-My-ZSH
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
