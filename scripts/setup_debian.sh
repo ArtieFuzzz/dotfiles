@@ -35,10 +35,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 git clone https://github.com/ArtieFuzzz/dotfiles ~/.dotfiles
 
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
+echo "Execute these commands to finish setting up!"
+echo "\n"
+echo "ln -s ~/.dotfiles/.zshrc ~/.zshrc"
+echo "ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh"
+echo "\n"
+echo "And to finish setting up the Terminal:"
 
-# Make ZSH the default shell
-chsh -s $(which zsh)
+echo "chsh -s $(which zsh)"
+echo "\n"
 
 echo "Dotfiles configured!"
