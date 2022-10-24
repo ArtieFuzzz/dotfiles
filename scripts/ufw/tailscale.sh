@@ -15,6 +15,7 @@ fi
 
 ufw allow in on tailscale0
 ufw allow 41641/udp
+ufw reload
 
 echo "If ufw is not already enabled...\nufw enable"
 
