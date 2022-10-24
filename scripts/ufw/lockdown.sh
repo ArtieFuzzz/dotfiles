@@ -16,7 +16,7 @@ then
     exit
 fi
 
-curl -s https://github.com/ArtieFuzzz/dotfiles/blob/main/scripts/ufw/tailscale.sh | bash
+curl -s https://raw.githubusercontent.com/ArtieFuzzz/dotfiles/main/scripts/ufw/tailscale.sh | bash
 
 ufw default deny incoming
 ufw default allow outgoing
