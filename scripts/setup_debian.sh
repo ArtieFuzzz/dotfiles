@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ "$EUID" != 0 ]]
+then
+    echo "You must run this command as sudo..."
+    exit
+fi
+
 echo "Setting up ArtieFuzzz/dotfiles"
 
 apt-get update -y
