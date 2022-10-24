@@ -20,6 +20,7 @@ curl -s https://github.com/ArtieFuzzz/dotfiles/blob/main/scripts/ufw/tailscale.s
 
 ufw default deny incoming
 ufw default allow outgoing
+ufw reload
 
 echo "Locked down server!"
 echo "To unlock:\n"
