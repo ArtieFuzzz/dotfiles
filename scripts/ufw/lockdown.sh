@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This script locks down the server so only Tailscale connections are allowed
 # USE THIS SCRIPT WITH CAUTION AS IT MAY LOCK YOU OUT OF YOUR SERVER

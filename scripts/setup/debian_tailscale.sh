@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # This script installs Tailscale and Ufw (+ enables Ufw with the rules in ../ufw/tailscale.sh)
 
@@ -25,6 +25,7 @@ apt-get install -y \
   ca-certificates \
   curl \ 
   gnupg \
+  gpg \
   lsb-release \
   software-properties-common \
   tree \

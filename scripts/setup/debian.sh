@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ "$EUID" != 0 ]]
 then
@@ -23,6 +23,7 @@ apt-get install -y \
   ca-certificates \
   curl \ 
   gnupg \
+  gpg \
   lsb-release \
   software-properties-common \
   tree \
